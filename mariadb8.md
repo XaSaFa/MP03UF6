@@ -41,5 +41,6 @@ use mp03uf6;
 select * from productes;
 ```
 
+![image](https://user-images.githubusercontent.com/110727546/213882480-e58a7e28-4ab4-4732-8722-cf6572ddbca7.png)
 
 
