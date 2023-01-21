@@ -47,6 +47,5 @@ describe productes;
 
 ![image](https://user-images.githubusercontent.com/110727546/213881289-af43bfcb-2098-41e9-8510-619b1066525d.png)
 
-## Insertar elements a una taula:
 
 
