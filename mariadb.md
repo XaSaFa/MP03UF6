@@ -14,10 +14,12 @@ El nom de la base de dades sembla cosa de Monty, qui té tres fills:
 - Max (MaxDB).
 - Maria (MariaDB).
 
-Foto Monty i les seves dues bbdd... filles:
+Foto de Monty i les seves dues bbdd... filles:
 
 ![image](https://user-images.githubusercontent.com/110727546/213863920-a8b0b884-9c13-41ae-8d1e-324d86adc893.png)
 
 ## Connectar MariaDB amb Java:
+
+
 
 
