@@ -139,23 +139,53 @@ Com es veu al tutorial modificarem el fitxer pom.xml per aquest:
 </project>
 ```
 
-i a la funció main del projecte escriurem:
+A la funció main del projecte escriurem:
 
 ```
-//create connection for a server installed in localhost, with a user "root" with no password
-        try (Connection conn = DriverManager.getConnection("jdbc:mariadb://localhost/", "estudiant", "Admin1234")) {
-            // create a Statement
-            try (Statement stmt = conn.createStatement()) {
-                //execute query
-                try (ResultSet rs = stmt.executeQuery("SELECT 'Hello World!'")) {
-                    //position result to first
-                    rs.first();
-                    System.out.println(rs.getString(1)); //result is "Hello World!"
-                }
-            }
-
-        }
+public static void main(String[] args) throws SQLException {
+        Connection con = null;
+        String sURL = "jdbc:mariadb://localhost:3306/mp03uf6";
+        con = DriverManager.getConnection(sURL, "estudiant", "Admin1234");
+        Statement stmt = con.createStatement();
+        ResultSet rs = stmt.executeQuery("SELECT 'Hello World!'");
+        rs.first();
+        System.out.println(rs.getString(1)); //result is "Hello World!"        
+    }
 ```
+
+El resultat serà Hello World!
+
+### Analitzem el codi:
+
+#### Connection con = null
+
+Aqui creem un objecte Connection que farem servir després.
+
+#### String sURL = "jdbc:mariadb://localhost:3306/mp03uf6";
+
+Aquesta cadena de connexió indica que faraà servir una connexió amb mariadb a la màquina local, el port 3306 és el port per defecte i es pot obviar, i la connexió serà contra la bbdd mp03uf6. 
+
+#### con = DriverManager.getConnection(sURL, "estudiant", "Admin1234");
+
+Aquesta línia crea un objecte DriverManager amb la cadena de connexió, el nom d'usuari i el seu password.
+
+#### Statement stmt = con.createStatement();
+
+Aqui creem un objecte Statement que s'utilitzarà per passar una sentencia SQL a la BBDD.
+
+#### ResultSet rs = stmt.executeQuery("SELECT 'Hello World!'");
+
+executeQuery executa una sentencia SQL i el resultat es guarda a un objecte ResultSet.
+
+#### rs.first();
+
+Agafem el primer resultat retornat de la consulta.
+
+#### System.out.println(rs.getString(1)); //result is "Hello World!"  
+
+Mostrem el resultat.
+
+
 
 
 
