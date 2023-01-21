@@ -3,5 +3,8 @@
 
 - [Presentació UF](presentacioUF.md)
 
+## Bases de dades relacionals (MariaDB):
+
+- [Connectar Java amb MariaDB](mariadb.md)
 
 
