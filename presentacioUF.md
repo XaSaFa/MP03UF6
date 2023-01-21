@@ -64,3 +64,14 @@
 - 3.4.2 Llenguatge de definició d’objectes ODL. 
 - 3.4.3 Llenguatge de consulta d’objectes OQL. 
 - 3.5 Prototipus i productes comercials de SGBDOO. 
+
+## Distribució Horaria:
+
+![image](https://user-images.githubusercontent.com/110727546/213862342-53eefe05-5456-4607-8bb2-54b23e6816a5.png)
+
+## Instruments d'avaluació:
+
+![image](https://user-images.githubusercontent.com/110727546/213862380-d68d46a2-a0bc-4e4e-bace-7127f913e977.png)
+
+
+
