@@ -17,4 +17,7 @@
 - [Seleccionar registres d'una taula](mariadb7.md)
 - [Eliminar registres d'una taula](mariadb8.md)
 
+## Activitats:
+
+- [CRUD de productes per terminal](activitat1.md)
 
