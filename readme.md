@@ -7,6 +7,6 @@
 
 - [Origen de MariaDB](mariadb1.md)
 - [Instal·lació i primers passos a MariaDB](mariadb2.md)
-- [Connectar Java amb MariaDB](mariadb.md)
+- [Connectar Java amb MariaDB](mariadb3.md)
 
 
