@@ -69,6 +69,9 @@ public static void main(String[] args) throws SQLException {
         ResultSet rs = stmt.executeQuery("SELECT 'Hello World!'");
         rs.first();
         System.out.println(rs.getString(1)); //result is "Hello World!"        
+        rs.close();
+        stmt.close();
+        con.close();
     }
 ```
 
