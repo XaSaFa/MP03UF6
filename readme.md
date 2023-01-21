@@ -21,3 +21,7 @@
 
 - [CRUD de productes per terminal](activitat1.md)
 
+## Recursos:
+
+- [Documentació de MariaDB](https://mariadb.com/kb/en/documentation/)
+
