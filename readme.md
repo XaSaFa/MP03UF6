@@ -14,5 +14,7 @@
 - [Crear una taula](mariadb4.md)
 - [Insertar registres a una taula](mariadb5.md)
 - [Modificar registres a una taula](mariadb6.md)
+- [Seleccionar registres d'una taula](mariadb7.md)
+- [Eliminar registres d'una taula](mariadb8.md)
 
 
