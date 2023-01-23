@@ -6,7 +6,6 @@
 package org.example;
 
 import java.sql.*;
-import java.text.MessageFormat;
 
 public class Main {
 
@@ -18,19 +17,26 @@ public class Main {
 
     }
 
-        public static void main(String[] args) throws SQLException {
+    public static void main(String[] args)  {
+        Connection con = null;
+        Statement stmt = null;
+        String sentenciaSQL = "DELETE FROM productes WHERE idProducte=2;";
+        try {
+
+            con = conexio();
+            stmt = con.createStatement();
+            stmt.executeUpdate(sentenciaSQL);
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally{
             try {
-                String sentenciaSQL = "DELETE FROM productes WHERE idProducte=2;";
-                Connection con = conexio();
-                Statement stmt = con.createStatement();
-                ResultSet rs = stmt.executeQuery(sentenciaSQL);
-                rs.close();
                 stmt.close();
                 con.close();
             }catch (Exception e){
                 e.printStackTrace();
             }
         }
+    }
 }
 ```
 
