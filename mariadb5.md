@@ -17,20 +17,27 @@ public class Main {
 
     }
 
-        public static void main(String[] args) throws SQLException {
+    public static void main(String[] args)  {
+        Connection con = null;
+        Statement stmt = null;
+        String sentenciaSQL = "INSERT INTO productes(nom,preu)" +
+                " VALUES('pizza prosciutto',3.16)";
+        try {
+            
+            con = conexio();
+            stmt = con.createStatement();
+            stmt.executeUpdate(sentenciaSQL);
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally{
             try {
-                String sentenciaSQL = "INSERT INTO productes(nom,preu)" +
-                        " VALUES('pizza prosciutto',3.16)";
-                Connection con = conexio();
-                Statement stmt = con.createStatement();
-                ResultSet rs = stmt.executeQuery(sentenciaSQL);
-                rs.close();
                 stmt.close();
                 con.close();
             }catch (Exception e){
                 e.printStackTrace();
             }
         }
+    }
 }
 ```
 
