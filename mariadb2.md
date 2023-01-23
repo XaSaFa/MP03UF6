@@ -5,7 +5,7 @@
 Per instal·lar mariadb anem a un terminal i escrivim:
 
 ```
-sudo apt install mariadb
+sudo apt install mariadb-server
 ```
 
 ## Crear una base de dades:
