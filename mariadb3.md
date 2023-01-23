@@ -93,7 +93,7 @@ Aquesta línia crea un objecte DriverManager amb la cadena de connexió, el nom 
 
 #### Statement stmt = con.createStatement();
 
-Aqui creem un objecte Statement que s'utilitzarà per passar una sentencia SQL a la BBDD.
+Aqui creem un objecte [Statement](https://docs.oracle.com/javase/7/docs/api/java/sql/Statement.html) que s'utilitzarà per passar una sentencia SQL a la BBDD.
 
 #### ResultSet rs = stmt.executeQuery("SELECT 'Hello World!'");
 
