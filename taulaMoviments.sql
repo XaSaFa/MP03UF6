@@ -1,0 +1,1 @@
+CREATE TABLE movimentProductes (idMoviment INT NOT NULL AUTO_INCREMENT PRIMARY KEY, idProducte INT, data DATE, quantitat FLOAT, FOREIGN KEY (idProducte) REFERENCES productes (idProducte) ON DELETE CASCADE ON UPDATE RESTRICT);
