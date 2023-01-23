@@ -20,6 +20,7 @@
 ## Activitats:
 
 - [CRUD de productes per terminal](activitat1.md)
+- [Control d'stocks de productes](activitat2.md)
 
 ## Recursos:
 
