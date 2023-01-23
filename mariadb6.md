@@ -17,23 +17,29 @@ public class Main {
 
     }
 
-        public static void main(String[] args) throws SQLException {
+    public static void main(String[] args)  {
+        Connection con = null;
+        Statement stmt = null;
+        String sentenciaSQL = "UPDATE productes" +
+                " SET preu = 3.99 "+
+                "WHERE idProducte = 1";
+        try {
+
+            con = conexio();
+            stmt = con.createStatement();
+            stmt.executeUpdate(sentenciaSQL);
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally{
             try {
-                String sentenciaSQL = "UPDATE productes" +
-                        " SET preu = 3.99 "+
-                        "WHERE idProducte = 1";
-                Connection con = conexio();
-                Statement stmt = con.createStatement();
-                ResultSet rs = stmt.executeQuery(sentenciaSQL);
-                rs.close();
                 stmt.close();
                 con.close();
             }catch (Exception e){
                 e.printStackTrace();
             }
         }
+    }
 }
-
 ```
 
 Per veure el resultat anem a mariadb i escrivim:
