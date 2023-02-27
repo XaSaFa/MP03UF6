@@ -16,7 +16,7 @@ Així el nostre programa ara tindrà una altra taula anomenada llistatMaterials,
 
 ## llistatMaterials:
 
-| llistatMaterials  | |
+| llistatMaterials  | | |
 | ----------- | ----------- |----------- |
 |idProducteFabricat | INT | PK |
 |idProducte | INT | |
