@@ -16,11 +16,20 @@ Així el nostre programa ara tindrà una altra taula anomenada llistatMaterials,
 
 ## llistatMaterials:
 
-| llistatMaterials  | | |
+| Materials  | | |
 | ----------- | ----------- |----------- |
-|idProducteFabricat | INT | PK |
-|idProducte | INT | |
-|quantitat | INT | |
+| idMaterial | INT | PK |
+| producteFabricat | INT | FK (productesFabricats) |
+| idProducte | INT | FK (productes) |
+| quantitat | INT | |
+
+## ProductesFabricats:
+
+| ProductesFabricats  | | |
+| ----------- | ----------- |----------- |
+| idProducteFabricat | INT | PK |
+| nom | Varchar |  |
+
 
 ### Exemple llança:
 
