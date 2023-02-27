@@ -9,7 +9,7 @@
 - [Instal·lació i primers passos a MariaDB](mariadb2.md)
 - [Connectar Java amb MariaDB](mariadb3.md)
 
-## Exemples:
+### Exemples:
 
 - [Crear una taula](mariadb4.md)
 - [Insertar registres a una taula](mariadb5.md)
@@ -17,13 +17,13 @@
 - [Seleccionar registres d'una taula](mariadb7.md)
 - [Eliminar registres d'una taula](mariadb8.md)
 
-## Activitats:
+### Activitats:
 
 - [CRUD de productes per terminal](activitat1.md)
 - [Control d'stocks de productes](activitat2.md)
 - [Productes fabricats](productesFabricats.md)
 
-## Recursos:
+### Recursos:
 
 - [Documentació de MariaDB](https://mariadb.com/kb/en/documentation/)
 
