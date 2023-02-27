@@ -73,9 +73,9 @@ Així si tenim per exemple el producte llança, el qual necessita per fabricar-s
 - Implementem la taula llistatMaterials i productesFabricats.
 - Crearem dos productes fabricats que necessitin almenys 2 productes per fabricar-se.
 - Crearem una part nova del programa, fabricació de productes, amb les següents seccions:
-  - Llistat de productes a fabricar i la seva "recepta", materials necessaris i quantitat dels mateixos.
-  - Previsió de fabricació: Indiquem un producte i la quantitat que volem fabricar i ens indica els materials necessaris per fabricar-ho tot.
-  - Estoc de productes a fabricar: Ens llista la quantitat de productes fabricats que podem construïr amb la quantitat de estoc dels productes actuals.
+- Llistat de productes a fabricar i la seva "recepta", materials necessaris i quantitat dels mateixos.
+- Previsió de fabricació: Indiquem un producte i la quantitat que volem fabricar i ens indica els materials necessaris per fabricar-ho tot.
+- Estoc de productes a fabricar: Ens llista la quantitat de productes fabricats que podem construïr amb la quantitat de estoc dels productes actuals.
 
 
 
