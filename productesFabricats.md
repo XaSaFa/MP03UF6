@@ -17,14 +17,18 @@ Així el nostre programa ara tindrà una altra taula anomenada llistatMaterials,
 ## llistatMaterials:
 
 | llistatMaterials  | |
-| ----------- | ----------- |
-|idProducteFabricat | INT |
-|idProducte | INT |
-|quantitat | INT |
+| ----------- | ----------- |----------- |
+|idProducteFabricat | INT | PK |
+|idProducte | INT | |
+|quantitat | INT | |
 
 ### Exemple llança:
 
-Així si tenim per exemple el producte llança, el qual necessita per fabricar-se un pal d'escombra, 0.1 de cinta americana i 1 ganivet de cacera tenim:
+Així si tenim per exemple el producte llança, el qual necessita per fabricar-se:
+
+- Un pal d'escombra
+- 0.1 de cinta americana
+- 1 ganivet de cacera:
 
 | Taula productes | 
 | ----------- | 
