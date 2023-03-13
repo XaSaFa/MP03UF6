@@ -27,3 +27,14 @@
 
 - [Documentació de MariaDB](https://mariadb.com/kb/en/documentation/)
 
+## Bases de dades objecte-relacionals (PostgreSQL):
+
+- [BBDD Objecte Relacionals](bbddOR.md)
+
+### Activitats:
+
+- [Investigació sobre ddbb Objecte Relacionals](bbddOR.md)
+
+### Recursos:
+
+- [Connectar PostgreSQL amb IntelliJ Ultimate](https://www.jetbrains.com/help/idea/postgresql.html)
